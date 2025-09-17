@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+# This is crucial to avoid uploading all your installed packages
+venv/
+.venv/
+env/
+.env/
+
+# Environment variables
+# IMPORTANT: Never commit your secrets!
+.env
+
+# Database files
+# In case you use a local SQLite database for testing
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor specific files
+.idea/
+.vscode/
+*.swp
