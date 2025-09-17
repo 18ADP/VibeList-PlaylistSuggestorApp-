@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'http://127.0.0.1:8000';
+    const API_BASE_URL = 'https://vibelist-playlistsuggester.onrender.com/';
     const token = localStorage.getItem('vibelist_token');
 
     const authContainer = document.getElementById('auth-container');
@@ -157,4 +157,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     checkAuthState();
+
 });
