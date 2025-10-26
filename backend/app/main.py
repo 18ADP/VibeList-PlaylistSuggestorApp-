@@ -34,6 +34,8 @@ origins = [
     "http://127.0.0.1:5500",
     "http://localhost:5500",
     "https://vibe-list-playlist-suggestor-app.vercel.app", 
+    "https://vibe-list-playlist-suggestor-cda2cyvzx-18adps-projects.vercel.app",
+    "https://vibe-list-playlist-suggestor-app-git-main-18adps-projects.vercel.app",
 ]
 
 app.add_middleware(
@@ -146,4 +148,5 @@ def get_suggestions(request: schemas.SuggestionRequest):
     except Exception as e:
 
         raise HTTPException(status_code=500, detail="An internal server error occurred.")
+
 
